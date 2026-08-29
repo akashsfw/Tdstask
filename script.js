@@ -184,8 +184,7 @@ function clearanceCode(seed) {
 
 
 
-resetBtn.addEventListener('click', () => {
-  trapArmed  = true;               
+resetBtn.addEventListener('click', () => {            
   dodgeTally = 0;
   sneakyBtn.classList.remove('tamed');
   btnFace.textContent  = 'Submit application';
